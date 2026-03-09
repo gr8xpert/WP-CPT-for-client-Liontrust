@@ -1,0 +1,426 @@
+# Copyright (C) 2024 RealtySoft BV
+# This file is distributed under the same license as the Community CPT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Community CPT 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: community-cpt.php
+msgid "Searching..."
+msgstr ""
+
+#: community-cpt.php
+msgid "No communities found."
+msgstr ""
+
+#: community-cpt.php
+msgid "Loading..."
+msgstr ""
+
+#: community-cpt.php
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Communities"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Community"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Add New Community"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Edit Community"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "New Community"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "View Community"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Search Communities"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "No communities found in trash"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "Parent Community:"
+msgstr ""
+
+#: includes/class-community-cpt.php
+msgid "All Communities"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Community Settings"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Related Communities"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Grid Card Excerpt"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Short description shown on grid cards. Falls back to WP excerpt if empty."
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Top Content (Listing Pages)"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "HTML content rendered ABOVE the child grid on listing pages."
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Bottom Content (Listing Pages)"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "HTML content rendered BELOW the child grid on listing pages."
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Related Section Title"
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Leave empty to automatically show sibling communities."
+msgstr ""
+
+#: includes/class-community-meta.php
+msgid "Clear All"
+msgstr ""
+
+#: includes/class-community-related.php
+msgid "Properties near %s"
+msgstr ""
+
+#: includes/class-community-related.php templates/partials/related-grid.php
+msgid "Explore"
+msgstr ""
+
+#: includes/class-community-breadcrumb.php
+msgid "Home"
+msgstr ""
+
+#: includes/class-community-breadcrumb.php
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Community CPT Settings"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Community CPT"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Grid Display"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Pagination Mode"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Show all (no pagination)"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Paginated"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Posts Per Page"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Default Grid Columns"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Card Style"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Default (image + title + excerpt)"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Compact (image + title only)"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Card Excerpt Length"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Search"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Show Search by Default"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Related Posts"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Related Posts Count"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Performance"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Enable Lazy Loading Images"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Cache Duration"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "1 hour"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "6 hours"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "12 hours"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "24 hours"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "No cache"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Tools"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Maintenance"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Flush Permalinks"
+msgstr ""
+
+#: includes/class-community-settings.php
+msgid "Clear All Cache"
+msgstr ""
+
+#: includes/class-community-admin-columns.php
+msgid "Image"
+msgstr ""
+
+#: includes/class-community-admin-columns.php
+msgid "Parent"
+msgstr ""
+
+#: includes/class-community-admin-columns.php
+msgid "Level"
+msgstr ""
+
+#: includes/class-community-admin-columns.php
+msgid "Children"
+msgstr ""
+
+#: includes/class-community-admin-columns.php
+msgid "Order"
+msgstr ""
+
+#: includes/class-community-duplicate.php
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-community-duplicate.php
+msgid "Duplicate this community"
+msgstr ""
+
+#: includes/class-community-duplicate.php
+msgid "Copy"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Import / Export Communities"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Import / Export"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Export Communities"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Download a CSV file containing all community posts."
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Export to CSV"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Import Communities"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Upload a CSV file to import or update community posts."
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Import from CSV"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Import Results"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Created: %d"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Updated: %d"
+msgstr ""
+
+#: includes/class-community-import-export.php
+msgid "Errors: %d"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Insert Community Shortcode"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Community Grid"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Shortcode Type"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Parent Community"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Columns"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Show Search Input"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Order By"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Menu Order"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Title"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Date"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Order Direction"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Ascending"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Descending"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Section Title"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Preview:"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-community-shortcode-wizard.php
+msgid "Insert Shortcode"
+msgstr ""
+
+#: templates/partials/grid-wrapper.php
+msgid "Search for a community..."
+msgstr ""
+
+#: templates/partials/grid-wrapper.php
+msgid "Search communities"
+msgstr ""
+
+#: templates/partials/grid-wrapper.php
+msgid "Clear search"
+msgstr ""
+
+#: templates/partials/pagination.php
+msgid "Community pagination"
+msgstr ""
+
+#: templates/partials/pagination.php
+msgid "Previous page"
+msgstr ""
+
+#: templates/partials/pagination.php
+msgid "Previous"
+msgstr ""
+
+#: templates/partials/pagination.php
+msgid "Next page"
+msgstr ""
+
+#: templates/partials/pagination.php
+msgid "Next"
+msgstr ""

@@ -1,0 +1,282 @@
+/**
+ * Community Admin Styles
+ *
+ * @package Community_CPT
+ */
+
+/* === SETTINGS PAGE === */
+.community-settings-wrap {
+	max-width: 800px;
+}
+
+.community-settings-section {
+	margin-bottom: 30px;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #ccd0d4;
+}
+
+.community-settings-section h2 {
+	margin-top: 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+/* === META BOX FIELDS === */
+.community-meta-field {
+	margin-bottom: 15px;
+}
+
+.community-meta-field label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.community-meta-field .description {
+	margin-top: 5px;
+	color: #666;
+	font-style: italic;
+}
+
+/* === IMPORT/EXPORT PAGE === */
+.community-import-export-sections {
+	max-width: 800px;
+}
+
+.community-import-results {
+	margin-top: 20px;
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccd0d4;
+}
+
+.community-import-results table {
+	margin-top: 15px;
+}
+
+.community-import-results tr.created td {
+	background: #d4edda;
+}
+
+.community-import-results tr.updated td {
+	background: #cce5ff;
+}
+
+.community-import-results tr.error td {
+	background: #f8d7da;
+}
+
+.community-import-results tr.warning td {
+	background: #fff3cd;
+}
+
+.community-import-results .created {
+	color: #155724;
+	font-weight: 600;
+}
+
+.community-import-results .updated {
+	color: #004085;
+	font-weight: 600;
+}
+
+.community-import-results .error {
+	color: #721c24;
+	font-weight: 600;
+}
+
+/* === ADMIN COLUMN BADGES === */
+.community-level-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.community-level-badge.level-1 {
+	background: #0073aa;
+}
+
+.community-level-badge.level-2 {
+	background: #46b450;
+}
+
+.community-level-badge.level-3 {
+	background: #f56e28;
+}
+
+/* Admin columns thumbnail */
+.column-thumbnail {
+	width: 70px;
+}
+
+.column-thumbnail img {
+	border-radius: 3px;
+}
+
+.column-level,
+.column-children,
+.column-menu_order {
+	width: 80px;
+}
+
+.column-parent {
+	width: 150px;
+}
+
+/* === SHORTCODE WIZARD MODAL === */
+.community-wizard-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 100100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.community-wizard-modal {
+	background: #fff;
+	border-radius: 4px;
+	width: 550px;
+	max-width: 90vw;
+	max-height: 80vh;
+	overflow-y: auto;
+	box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.community-wizard-header {
+	padding: 16px 20px;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.community-wizard-header h2 {
+	margin: 0;
+	font-size: 16px;
+}
+
+.community-wizard-close {
+	background: none;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	color: #666;
+	padding: 0;
+	line-height: 1;
+}
+
+.community-wizard-close:hover {
+	color: #000;
+}
+
+.community-wizard-body {
+	padding: 20px;
+}
+
+.community-wizard-footer {
+	padding: 16px 20px;
+	border-top: 1px solid #ddd;
+	text-align: right;
+}
+
+.community-wizard-footer .button {
+	margin-left: 10px;
+}
+
+.community-wizard-preview {
+	margin-top: 16px;
+	padding: 12px;
+	background: #f6f7f7;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.community-wizard-preview code {
+	font-family: monospace;
+	font-size: 13px;
+	word-break: break-all;
+	background: transparent;
+}
+
+.community-wizard-field {
+	margin-bottom: 16px;
+}
+
+.community-wizard-field label {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 600;
+}
+
+.community-wizard-field select,
+.community-wizard-field input[type="text"],
+.community-wizard-field input[type="number"] {
+	width: 100%;
+}
+
+.community-wizard-field .description {
+	margin-top: 4px;
+	color: #666;
+	font-size: 12px;
+}
+
+.community-wizard-radio-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.community-wizard-radio-group label {
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* === SELECT2 OVERRIDES === */
+.community-meta-field .select2-container {
+	width: 100% !important;
+}
+
+.community-meta-field .select2-container--default .select2-selection--multiple {
+	min-height: 38px;
+	border-color: #8c8f94;
+}
+
+.community-meta-field .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	background-color: #2271b1;
+	border-color: #2271b1;
+	color: #fff;
+	padding: 2px 8px;
+}
+
+.community-meta-field .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #fff;
+	margin-right: 5px;
+}
+
+.community-meta-field .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+	color: #f00;
+}
+
+/* === ARCHIVE SETTINGS PAGE === */
+.community_page_community-archive-settings .form-table th {
+	width: 200px;
+	padding-top: 20px;
+}
+
+.community_page_community-archive-settings .form-table td {
+	padding-top: 15px;
+}
+
+.community_page_community-archive-settings .wp-editor-wrap {
+	max-width: 800px;
+}
